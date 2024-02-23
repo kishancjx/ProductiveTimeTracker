@@ -236,7 +236,7 @@ my_menu.entryconfig(2,state="disabled")
 my_menu.entryconfig(3,state="disabled")
 window.bind("<Button-3>", pop_rightCLick)
 window.bind('<B1-Motion>',move) 
-my_menu.bind("<Button-1>", anotherTest)
+my_menu.bind("<Button-1>", test)
 
 # This code allow to stay on top (aka always on Top)
 window.wm_attributes("-topmost",1)
