@@ -281,7 +281,7 @@ def appsamechecker():
     # print(is_same)
 
 # This will ensure that the timer is running or paused according to whether the person is productivity or not
-def test():
+def ensureTimer():
     global is_paused, is_started, is_resumed , is_reset , is_same
     global running
     if is_started :
@@ -291,7 +291,7 @@ def test():
         if is_paused and is_same:
             resume_timer()
     # print(is_same)
-    window.after(1000,test)
+    window.after(1000,ensureTimer)
 
 
 
